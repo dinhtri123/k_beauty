@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "SF Pro";
+  src: url("../fonts/SF-Pro.ttf") format("truetype");
+}
+
+:root {
+  --cl-primary: rgba(78, 32, 121, 1);
+  --cl-secondary: #fad156;
+  --cl-black: #000;
+  --cl-white: #fff;
+  --font-primary: "SF Pro", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+}

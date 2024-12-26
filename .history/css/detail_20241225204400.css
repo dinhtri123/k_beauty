@@ -1,0 +1,119 @@
+.detail-breadcrumb {
+  position: relative;
+}
+.detail-breadcrumb .container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  padding-top: 24px;
+}
+.detail-breadcrumb a {
+  background-color: var(--cl-white);
+  border-radius: 50px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--cl-primary);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 590;
+  width: fit-content;
+}
+.detail {
+  background: linear-gradient(85.77deg, #feeada 0%, #edc4fd 100%);
+  padding: 40px 0px;
+  margin-top: -10px;
+}
+.detail-main {
+  padding: 55px;
+  background-color: var(--cl-white);
+}
+.detail-main h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  color: var(--cl-primary);
+  margin-bottom: 12px;
+  text-align: center;
+}
+.detail-main time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: rgba(68, 68, 68, 1);
+  margin-bottom: 24px;
+}
+.detail-content {
+  text-align: center;
+}
+.detail-content b,
+.detail-main p {
+  color: rgba(31, 31, 31, 1);
+  text-align: left;
+}
+.detail-content b,
+.detail-content h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 590;
+  margin-bottom: 12px;
+  display: block;
+  text-align: left;
+}
+.detail-content p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 590;
+}
+.detail-content img {
+  max-width: 685px;
+  margin: 16px auto;
+  width: 100%;
+}
+.detail-content address {
+  text-align: right;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000;
+}
+@media screen and (max-width: 767px) {
+  .detail-breadcrumb img {
+    aspect-ratio: 16/9;
+  }
+  .detail-breadcrumb a {
+    font-size: 16px;
+    padding: 12px 20px;
+    line-height: 20px;
+  }
+  .detail-main {
+    padding: 20px;
+  }
+  .detail-main h2 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+  .detail-main time {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .detail-content b,
+  .detail-content h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .detail-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .detail-content address {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

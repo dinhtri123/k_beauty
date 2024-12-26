@@ -1,0 +1,26 @@
+.detail-breadcrumb {
+  position: relative;
+}
+.detail-breadcrumb .container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  padding-top: 24px;
+}
+.detail-breadcrumb a {
+  background-color: var(--cl-white);
+  border-radius: 50px;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--cl-primary);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 590;
+  width: fit-content;
+}

@@ -1,0 +1,6 @@
+.detail-breadcrumb .container {
+  position: relative;
+}
+.detail-breadcrumb a {
+  position: absolute;
+}

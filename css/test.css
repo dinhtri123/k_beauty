@@ -20,6 +20,11 @@
   flex-direction: column;
   gap: 16px;
 }
+.question-item p {
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
 .question-option label {
   border-radius: 50px;
   min-height: 52px;
